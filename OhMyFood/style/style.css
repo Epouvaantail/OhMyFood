@@ -229,7 +229,7 @@ body {
     .card-restaurants:hover {
         box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
     }
-    
+
     .card-restaurants img{
         border-radius: 15px 15px 0 0;
         height: 170px;
@@ -311,6 +311,10 @@ body {
 
     .card-restaurants .card-text .like-hover:active {
         opacity: 1;
+    }
+
+    .card-restaurants .card-text .far.fa-heart:hover {
+        display: none;
     }
 
     .end-card {
