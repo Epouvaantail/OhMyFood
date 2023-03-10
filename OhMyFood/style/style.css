@@ -83,6 +83,18 @@ body {
         color: black;
         margin-left: 15px;
     }
+
+    h2 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        color: black;
+        margin-left: 15px;
+
+    }
     
     p {
         font-family: 'Roboto';
@@ -121,6 +133,7 @@ body {
         color: white;
         cursor: pointer;
         margin-bottom: 57px;
+        transition-duration: 2s; 
     }
     
     .explore button:hover {
@@ -176,7 +189,7 @@ body {
         border-radius: 20px;
         box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
         height: 72.38px;
-        width: 90%;
+        width: 85%;
         margin-left: 32.51px;
     }
     
@@ -188,7 +201,7 @@ body {
         border-radius: 20px;
         box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
         height: 72.38px;
-        width: 90%;
+        width: 85%;
         margin-left: 32.51px;
         background-color: #F5EDFF;
         border-color: #F5EDFF;
