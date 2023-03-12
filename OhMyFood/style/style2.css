@@ -278,6 +278,10 @@ h3::after {
   animation-delay: 0.8s;
 }
 
+.delay-9 {
+  animation-delay: 0.9s;
+}
+
 .command {
   height: 50px;
   width: 218px;
