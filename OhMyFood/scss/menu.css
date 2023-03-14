@@ -447,7 +447,7 @@
     transition: transform 400ms;
     transform-origin: center center;
     margin-left: -35px;
-    font-size: 30px;
+    font-size: 32px;
   }
   i.far.fa-heart.like {
     margin-left: -35px;
@@ -775,7 +775,7 @@
     transition: transform 400ms;
     transform-origin: center center;
     margin-left: -35px;
-    font-size: 30px;
+    font-size: 32px;
   }
   i.far.fa-heart.like {
     margin-left: -35px;
