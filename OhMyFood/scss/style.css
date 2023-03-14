@@ -23,7 +23,6 @@
   align-items: center;
   justify-content: center;
 }
-
 .loader i {
   font-size: 30px;
   color: #99E2D0;
@@ -184,6 +183,9 @@
   .fonctionnement h1 {
     margin-left: 20px;
   }
+  .fonctionnement i {
+    margin-left: 34.49px;
+  }
   h3 {
     font-family: "roboto";
     font-style: normal;
@@ -238,9 +240,6 @@
   .step3 h3 {
     color: #9356DC;
   }
-  .fonctionnement i {
-    margin-left: 34.49px;
-  }
   .accueil {
     background-color: #F6F6F6;
     width: 100%;
@@ -267,9 +266,6 @@
     width: 93%;
     margin: 20px 15px 0px 15px;
   }
-  .card-restaurants:hover {
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-  }
   .card-restaurants img {
     border-radius: 15px 15px 0 0;
     height: 170px;
@@ -278,15 +274,18 @@
     -o-object-fit: cover;
        object-fit: cover;
   }
+  .card-restaurants p {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+  }
   .card-restaurants h2 {
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
   }
-  .card-restaurants p {
-    font-weight: 300;
-    font-size: 17px;
-    line-height: 20px;
+  .card-restaurants:hover {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
   }
   .card-restaurants .card-text {
     display: grid;
@@ -294,11 +293,7 @@
     grid-template-rows: 2fr;
     grid-template-areas: "h2 h2 heart" "p p heart";
   }
-  .card-head {
-    display: flex;
-    align-items: baseline;
-  }
-  .card-text h2 {
+  .card-restaurants .card-text h2 {
     grid-area: h2;
     font-family: "Roboto";
     font-style: normal;
@@ -309,12 +304,16 @@
     margin-top: 16px;
     margin-left: 13px;
   }
-  .card-text p {
+  .card-restaurants .card-text p {
     grid-area: p;
     font-weight: 300;
     font-size: 17px;
     text-align: left;
     margin: 5px 0 15px 13px;
+  }
+  .card-head {
+    display: flex;
+    align-items: baseline;
   }
   .card-restaurants .card-text .fa-heart {
     grid-area: heart;
@@ -374,14 +373,6 @@
     flex-direction: column;
     align-items: flex-start;
   }
-  .footer {
-    display: flex;
-    flex-direction: column;
-    align-items: self-start;
-    margin-left: 25px;
-    margin-bottom: 33px;
-    margin-top: 22px;
-  }
   footer .logo {
     margin: 22px auto 16px 25px;
     filter: invert(100%);
@@ -395,6 +386,14 @@
   }
   footer i {
     color: white;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    margin-left: 25px;
+    margin-bottom: 33px;
+    margin-top: 22px;
   }
   .i_p1 {
     display: flex;
@@ -536,6 +535,9 @@
   .fonctionnement h1 {
     margin-left: 20px;
   }
+  .fonctionnement i {
+    margin-left: 0px;
+  }
   h3 {
     font-family: "roboto";
     font-style: normal;
@@ -556,9 +558,6 @@
     border-radius: 50%;
     color: white;
     margin-left: -10px;
-  }
-  .step3 .step-num {
-    color: white;
   }
   .step {
     display: flex;
@@ -584,14 +583,14 @@
     background-color: #F5EDFF;
     border-color: #F5EDFF;
   }
+  .step3 .step-num {
+    color: white;
+  }
   .step3 i {
     color: #9356DC;
   }
   .step3 h3 {
     color: #9356DC;
-  }
-  .fonctionnement i {
-    margin-left: 0px;
   }
   .accueil {
     width: 100%;
@@ -620,9 +619,6 @@
     width: 25%;
     margin: 20px 15px 0px 15px;
   }
-  .card-restaurants:hover {
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-  }
   .card-restaurants img {
     border-radius: 15px 15px 0 0;
     height: 170px;
@@ -640,6 +636,9 @@
     font-weight: 300;
     font-size: 17px;
     line-height: 20px;
+  }
+  .card-restaurants:hover {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
   }
   .card-restaurants .card-text {
     display: grid;
@@ -729,6 +728,12 @@
     width: 100%;
     height: 114px;
   }
+  footer .logo {
+    margin: 49px 80px 38px 71px;
+    filter: invert(100%);
+    height: 27px;
+    width: 7%;
+  }
   .footer {
     display: flex;
     margin-left: 25px;
@@ -739,18 +744,12 @@
     justify-content: space-between;
     flex-direction: row;
   }
-  footer .logo {
-    margin: 49px 80px 38px 71px;
-    filter: invert(100%);
-    height: 27px;
-    width: 7%;
-  }
-  footer p {
+  .footer p {
     color: white;
     margin-bottom: 9px;
     margin-top: 0;
   }
-  footer i {
+  .footer i {
     color: white;
   }
   .i_p1 {
@@ -891,6 +890,9 @@
   .fonctionnement h1 {
     margin-left: 20px;
   }
+  .fonctionnement i {
+    margin-left: 0px;
+  }
   h3 {
     font-family: "roboto";
     font-style: normal;
@@ -945,9 +947,6 @@
   .step3 h3 {
     color: #9356DC;
   }
-  .fonctionnement i {
-    margin-left: 0px;
-  }
   .accueil {
     width: 100%;
     background-color: #F6F6F6;
@@ -974,9 +973,6 @@
     width: 93%;
     margin: 20px 15px 0px 15px;
   }
-  .card-restaurants:hover {
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-  }
   .card-restaurants img {
     border-radius: 15px 15px 0 0;
     height: 170px;
@@ -1000,6 +996,9 @@
     grid-template-columns: 8fr 2fr;
     grid-template-rows: 2fr;
     grid-template-areas: "h2 h2 heart" "p p heart";
+  }
+  .card-restaurants:hover {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
   }
   .card-head {
     display: flex;
@@ -1081,19 +1080,10 @@
     flex-direction: column;
     align-items: flex-start;
   }
-  .footer {
-    display: flex;
-    flex-direction: column;
-    align-items: self-start;
-    margin-left: 25px;
-    margin-bottom: 33px;
-    margin-top: 22px;
-  }
   footer .logo {
     margin: 22px auto 16px 25px;
     filter: invert(100%);
     height: 25px;
-    width: 26%;
   }
   footer p {
     color: white;
@@ -1102,6 +1092,14 @@
   }
   footer i {
     color: white;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    margin-left: 25px;
+    margin-bottom: 33px;
+    margin-top: 22px;
   }
   .i_p1 {
     display: flex;

@@ -125,14 +125,17 @@ article {
 
 .menu-header{
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: baseline;
-  justify-content: flex-start;
-  gap: 70px;
+  justify-content: space-between;
   width: 96%;
 }
 
-.menu-header .heart-like .like-hover {
+.heart-like {
+    display: flex;
+}
+
+.heart-like .like-hover {
   background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
   height: fit-content;
   background-clip: text ;
@@ -142,18 +145,20 @@ article {
   transform: scale(0.5);
   transition: transform 400ms ;
   transform-origin: center center;
-  margin-left: -35px;
-  font-size: 30px;
+  font-size: 31px;
+  position: relative;
+  left: -34px;
 }
 
 i.far.fa-heart.like {
-  margin-left: -35px;
   font-size: 30px;
 }
 
 .menu-header .heart-like .like-hover:hover {
   transform: scale(1.1);
   opacity: 1;
+  position: relative;
+  left: -31px;
 }
 
 .menu-header.heart-like .like-hover:active {
@@ -173,7 +178,6 @@ h1 {
   color: black;
   margin-top: 32px;
   margin-left: 13px;
-  margin-right: 17px;
 }
 
 .header {
@@ -182,6 +186,7 @@ h1 {
   position: relative;
   z-index: 1000;
 }
+
 .header__logo {
   font-family: "Shrikhand", "cursive";
   margin: 0;
@@ -232,24 +237,28 @@ h3::after {
   transform: scale(0);
   max-width: 100%;
 }
+
 .menu-head {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
   flex: 1;
 }
+
 .menu-title {
   margin: 0;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
 }
+
 .menu-description {
   margin: 0;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
 }
+
 .price {
   font-weight: bold;
   display: flex;
@@ -257,6 +266,7 @@ h3::after {
   align-items: flex-end;
   padding-left: 0.5rem;
 }
+
 .confirmation {
   background-color: #99E2D0;
   margin: -1rem -5rem -1rem 1rem;
@@ -266,10 +276,12 @@ h3::after {
   justify-content: center;
   transition-duration: 0.5s;
 }
+
 .menu-card:hover .confirmation {
   margin-right: -1rem;
 
 }
+
 .check-circle {
   height: 1.6rem;
   width: 1.6rem;
@@ -348,18 +360,18 @@ h3::after {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.command h2 {
-  color: white;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  margin: 25px 0 40px 0;
+  h2 {
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
 }
 
 .coommand:hover {
@@ -381,6 +393,19 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  .logo {
+    margin: 22px auto 16px 25px;
+    filter: invert(100%);
+    height: 19px;
+  }
+  p {
+    color: white;
+    margin-bottom: 9px;
+    margin-top: 0;
+  }
+  i {
+    color: white;
+  }
 }
 
 .footer {
@@ -390,23 +415,6 @@ footer {
   margin-left: 25px;
   margin-bottom: 33px;
   margin-top: 22px;
-}
-
-footer .logo {
-  margin: 22px auto 16px 25px;
-  filter: invert(100%);
-  height: 25px;
-  width: 26%;
-}
-
-footer p {
-  color: white;
-  margin-bottom: 9px;
-  margin-top: 0;
-}
-
-footer i {
-  color: white;
 }
 
 .i_p1 {
@@ -482,14 +490,13 @@ footer i {
       display: flex;
       flex-direction: column;
       align-items: center;
-    }
-    
-    main img {
-      height: 450px;
-      width: 100%;
-      position: relative;
-      z-index: 1;
-      object-fit: cover;
+      img {
+        height: 450px;
+        width: 100%;
+        position: relative;
+        z-index: 1;
+        object-fit: cover;
+      }
     }
     
     article {
@@ -613,24 +620,28 @@ footer i {
       transform: scale(0);
       max-width: 100%;
     }
+
     .menu-head {
       white-space: nowrap;
       text-overflow: ellipsis;
       overflow: hidden;
       flex: 1;
     }
+
     .menu-title {
       margin: 0;
       white-space: nowrap;
       text-overflow: ellipsis;
       overflow: hidden;
     }
+
     .menu-description {
       margin: 0;
       white-space: nowrap;
       text-overflow: ellipsis;
       overflow: hidden;
     }
+
     .price {
       font-weight: bold;
       display: flex;
@@ -638,6 +649,7 @@ footer i {
       align-items: flex-end;
       padding-left: 0.5rem;
     }
+
     .confirmation {
       background-color: #99E2D0;
       margin: -1rem -5rem -1rem 1rem;
@@ -647,6 +659,7 @@ footer i {
       justify-content: center;
       transition-duration: 0.5s;
     }
+
     .menu-card:hover .confirmation {
       margin-right: -1rem;
     
@@ -729,18 +742,17 @@ footer i {
       display: flex;
       align-items: center;
       justify-content: center;
-    }
-    
-    .command h2 {
-      color: white;
-      font-family: 'Roboto';
-      font-style: normal;
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 19px;
-      display: flex;
-      align-items: center;
-      text-align: center;
+      h2 {
+        color: white;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+      }
     }
     
     .coommand:hover {
@@ -764,6 +776,19 @@ footer i {
         align-items: flex-end;
         width: 100%;
         height: 114px;
+        .logo {
+        margin: 49px 80px 38px 71px;
+        filter: invert(100%);
+        height: 27px;
+        }
+        p {
+            color: white;
+            margin-bottom: 9px;
+            margin-top: 0;
+        }
+        i {
+            color: white;
+        }
     }
     
     .footer {
@@ -775,23 +800,6 @@ footer i {
         white-space: nowrap;
         justify-content: space-between;
         flex-direction: row;
-    }
-    
-     footer .logo {
-        margin: 49px 80px 38px 71px;
-        filter: invert(100%);
-        height: 27px;
-        width: 7%;
-    }
-
-    footer p {
-        color: white;
-        margin-bottom: 9px;
-        margin-top: 0;
-    }
-    
-    footer i {
-        color: white;
     }
     
     .i_p1 {
@@ -861,14 +869,13 @@ footer i {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  
-  main img {
-    height: 450px;
-    width: 100%;
-    position: relative;
-    z-index: 1;
-    object-fit: cover;
+    img {
+        height: 450px;
+        width: 100%;
+        position: relative;
+        z-index: 1;
+        object-fit: cover;
+      }
   }
   
   article {
@@ -992,24 +999,28 @@ footer i {
     transform: scale(0);
     max-width: 100%;
   }
+
   .menu-head {
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
     flex: 1;
   }
+
   .menu-title {
     margin: 0;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
   }
+
   .menu-description {
     margin: 0;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
   }
+
   .price {
     font-weight: bold;
     display: flex;
@@ -1017,6 +1028,7 @@ footer i {
     align-items: flex-end;
     padding-left: 0.5rem;
   }
+
   .confirmation {
     background-color: #99E2D0;
     margin: -1rem -5rem -1rem 1rem;
@@ -1026,6 +1038,7 @@ footer i {
     justify-content: center;
     transition-duration: 0.5s;
   }
+
   .menu-card:hover .confirmation {
     margin-right: -1rem;
   
@@ -1108,18 +1121,17 @@ footer i {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .command h2 {
-    color: white;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    h2 {
+        color: white;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+      }
   }
   
   .coommand:hover {
@@ -1141,6 +1153,21 @@ footer i {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    .logo {
+        margin: 22px auto 16px 25px;
+        filter: invert(100%);
+        height: 25px;
+      }
+      
+      p {
+        color: white;
+        margin-bottom: 9px;
+        margin-top: 0;
+      }
+      
+      i {
+        color: white;
+      }
   }
   
   .footer {
@@ -1150,23 +1177,6 @@ footer i {
     margin-left: 25px;
     margin-bottom: 33px;
     margin-top: 22px;
-  }
-  
-  footer .logo {
-    margin: 22px auto 16px 25px;
-    filter: invert(100%);
-    height: 25px;
-    width: 26%;
-  }
-  
-  footer p {
-    color: white;
-    margin-bottom: 9px;
-    margin-top: 0;
-  }
-  
-  footer i {
-    color: white;
   }
   
   .i_p1 {
