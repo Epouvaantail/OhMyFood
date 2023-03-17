@@ -82,8 +82,7 @@ body{
 
 .logo {
     height: 35px;
-    margin-bottom: 15px;
-    margin-top: 24px;
+    margin: 24px 40px 15px 0;
 }
 
 .fa-arrow-left {
@@ -463,8 +462,7 @@ footer {
     
     .logo {
         height: 35px;
-        margin-bottom: 15px;
-        margin-top: 24px;
+        margin: 24px 40px 15px 0;
     }
     
     .fa-arrow-left {
@@ -535,6 +533,7 @@ footer {
     i.far.fa-heart.like {
       margin-left: -35px;
       font-size: 30px;
+      height: 2px;
     }
     
     .menu-header .heart-like .like-hover:hover {
@@ -758,7 +757,7 @@ footer {
     .coommand:hover {
       box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
       border-radius: 25px;
-      filter: brightness(110%);
+      filter: brightness(210%);
     }
     
     a {
@@ -842,8 +841,7 @@ footer {
   
   .logo {
       height: 35px;
-      margin-bottom: 15px;
-      margin-top: 24px;
+      margin: 24px 40px 15px 0;
   }
   
   .fa-arrow-left {
