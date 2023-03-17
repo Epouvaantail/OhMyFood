@@ -793,7 +793,7 @@
         z-index: 2;
         position: absolute;
         margin-top: 15px;
-        margin-left: 16.5%;
+        margin-right: 14px;
         background-color: #99E2D0;
         color: #278870;
         font-size: 13px;
@@ -802,6 +802,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .new__x {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
     }
 
 
