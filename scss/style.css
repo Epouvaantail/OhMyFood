@@ -14,7 +14,7 @@
   width: 100%;
   left: 0;
   right: 0;
-  background-color: hsla(0, 0%, 100%, 0.9);
+  background-color: white;
   animation: loader 0.01s;
   animation-delay: 3s;
   animation-fill-mode: both;
