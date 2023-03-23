@@ -124,10 +124,10 @@ main img {
   text-align: center;
 }
 
-.coommand:hover {
+.command:hover {
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
   border-radius: 25px;
-  filter: brightness(130%);
+  filter: brightness(110%);
 }
 
 .confirmation {
