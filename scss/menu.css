@@ -10,34 +10,6 @@
     transform: scale(1);
   }
 }
-@keyframes disapear {
-  0% {
-    opacity: 1;
-    z-index: 22;
-  }
-  80% {
-    opacity: 22;
-  }
-  90% {
-    opacity: 22;
-    z-index: 22;
-  }
-  100% {
-    opacity: 0;
-    z-index: 0;
-  }
-}
-@keyframes float {
-  0% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(20px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
 :root {
   --primary-color: #9356DC; /* --primary-color */
   --secondary-color: #FF79DA; /* --secondary-color */
@@ -106,6 +78,7 @@ main img {
   line-height: 19px;
   color: white;
   cursor: pointer;
+  transition-duration: 2s;
   margin: 25px 95px 40px 95px;
   display: flex;
   align-items: center;
@@ -446,9 +419,6 @@ a {
   }
   .menu-header .heart-like .like-hover:hover {
     transform: scale(1.1);
-    opacity: 1;
-  }
-  .menu-header.heart-like .like-hover:active {
     opacity: 1;
   }
   .menu-header .heart-like .far.fa-heart:hover {
