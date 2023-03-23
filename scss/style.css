@@ -121,6 +121,10 @@ header {
   filter: brightness(130%);
 }
 
+.step {
+  background-color: #F6F6F6;
+}
+
 .step-num {
   box-sizing: border-box;
   display: flex;
@@ -132,7 +136,7 @@ header {
   border: solid 1px #9356DC;
   border-radius: 50%;
   color: white;
-  margin-left: -10px;
+  margin-left: -12px;
 }
 
 .restaurants {
@@ -500,7 +504,7 @@ a {
   }
   .fonctionnement__title {
     display: flex;
-    margin-left: 193px;
+    margin-left: 13%;
   }
   .fonctionnement {
     display: flex;
@@ -508,7 +512,7 @@ a {
     align-items: flex-start;
     width: 80%;
     gap: 25px;
-    margin-left: 185px;
+    margin-left: 12%;
   }
   .fonctionnement h1 {
     margin-left: 20px;
