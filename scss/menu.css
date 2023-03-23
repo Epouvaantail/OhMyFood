@@ -134,46 +134,6 @@ main img {
   color: #99E2D0;
 }
 
-.delay-0 {
-  animation-delay: 0s;
-}
-
-.delay-1 {
-  animation-delay: 0.1s;
-}
-
-.delay-2 {
-  animation-delay: 0.2s;
-}
-
-.delay-3 {
-  animation-delay: 0.3s;
-}
-
-.delay-4 {
-  animation-delay: 0.4s;
-}
-
-.delay-5 {
-  animation-delay: 0.5s;
-}
-
-.delay-6 {
-  animation-delay: 0.6s;
-}
-
-.delay-7 {
-  animation-delay: 0.7s;
-}
-
-.delay-8 {
-  animation-delay: 0.8s;
-}
-
-.delay-9 {
-  animation-delay: 0.9s;
-}
-
 a {
   text-decoration: none;
   display: flex;
@@ -308,6 +268,36 @@ a {
     animation-fill-mode: both;
     transform: scale(0);
     max-width: 100%;
+  }
+  .delay-0 {
+    animation-delay: 0s;
+  }
+  .delay-1 {
+    animation-delay: 0.1s;
+  }
+  .delay-2 {
+    animation-delay: 0.2s;
+  }
+  .delay-3 {
+    animation-delay: 0.3s;
+  }
+  .delay-4 {
+    animation-delay: 0.4s;
+  }
+  .delay-5 {
+    animation-delay: 0.5s;
+  }
+  .delay-6 {
+    animation-delay: 0.6s;
+  }
+  .delay-7 {
+    animation-delay: 0.7s;
+  }
+  .delay-8 {
+    animation-delay: 0.8s;
+  }
+  .delay-9 {
+    animation-delay: 0.9s;
   }
   .menu-head {
     white-space: nowrap;
@@ -505,6 +495,36 @@ a {
     text-overflow: ellipsis;
     overflow: hidden;
   }
+  .delay-0 {
+    animation-delay: 0s;
+  }
+  .delay-1 {
+    animation-delay: 0.1s;
+  }
+  .delay-2 {
+    animation-delay: 0.2s;
+  }
+  .delay-3 {
+    animation-delay: 0.3s;
+  }
+  .delay-4 {
+    animation-delay: 0.4s;
+  }
+  .delay-5 {
+    animation-delay: 0.5s;
+  }
+  .delay-6 {
+    animation-delay: 0.6s;
+  }
+  .delay-7 {
+    animation-delay: 0.7s;
+  }
+  .delay-8 {
+    animation-delay: 0.8s;
+  }
+  .delay-9 {
+    animation-delay: 0.9s;
+  }
   .price {
     font-weight: bold;
     display: flex;
@@ -670,6 +690,36 @@ a {
     animation-fill-mode: both;
     transform: scale(0);
     max-width: 100%;
+  }
+  .delay-0 {
+    animation-delay: 0s;
+  }
+  .delay-1 {
+    animation-delay: 0.1s;
+  }
+  .delay-2 {
+    animation-delay: 0.2s;
+  }
+  .delay-3 {
+    animation-delay: 0.3s;
+  }
+  .delay-4 {
+    animation-delay: 0.4s;
+  }
+  .delay-5 {
+    animation-delay: 0.5s;
+  }
+  .delay-6 {
+    animation-delay: 0.6s;
+  }
+  .delay-7 {
+    animation-delay: 0.7s;
+  }
+  .delay-8 {
+    animation-delay: 0.8s;
+  }
+  .delay-9 {
+    animation-delay: 0.9s;
   }
   .menu-head {
     white-space: nowrap;
