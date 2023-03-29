@@ -202,8 +202,6 @@ a {
 }
 
 
-@media all and (max-width:767px)
-{
 
     body {
         max-width: 767px;
@@ -468,7 +466,6 @@ a {
             color: white;
         }
     }
-}
 
 
 
@@ -478,6 +475,7 @@ a {
 {
     body {
         margin: 0;
+        max-width: none;
     }
     
     main {
@@ -757,6 +755,7 @@ a {
 
     body {
         margin: 0;
+        max-width: 991px;
     }
     
     main {

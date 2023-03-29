@@ -157,8 +157,6 @@ a {
 }
 
 /* VERSION SMARTPHONE */
-@media all and (max-width:767px)
-{
 
 body{
   max-width: 767px;
@@ -389,7 +387,6 @@ footer {
   margin-bottom: 33px;
   margin-top: 22px;
 }
-}
 
 
 
@@ -400,7 +397,8 @@ footer {
 {
     body {
       margin: 0;
-      font-family: "Roboto"
+      font-family: "Roboto";
+      max-width: none;
     }
 
     main {
@@ -433,20 +431,6 @@ footer {
       justify-content: center;
       align-items: baseline;
       gap: 50px;
-    }
-    
-    .menu-header .heart-like .like-hover {
-      background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
-      height: fit-content;
-      background-clip: text ;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      opacity: 0;
-      transform: scale(0.5);
-      transition: transform 400ms ;
-      transform-origin: center center;
-      margin-left: -35px;
-      font-size: 32px;
     }
     
     i.far.fa-heart.like {
@@ -646,7 +630,8 @@ footer {
 @media all and (min-width: 768px) and (max-width: 991px){
   body {
     margin: 0;
-    font-family: "Roboto"
+    font-family: "Roboto";
+    max-width: 991px;
   }
 
   main {
@@ -679,20 +664,6 @@ footer {
     justify-content: center;
     align-items: baseline;
     gap: 50px;
-  }
-  
-  .menu-header .heart-like .like-hover {
-    background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
-    height: fit-content;
-    background-clip: text ;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    opacity: 0;
-    transform: scale(0.5);
-    transition: transform 400ms ;
-    transform-origin: center center;
-    margin-left: -35px;
-    font-size: 32px;
   }
   
   i.far.fa-heart.like {
