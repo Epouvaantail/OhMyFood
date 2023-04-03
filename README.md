@@ -1,6 +1,6 @@
 # Améliorez l'interface d'un site mobile avec des animations CSS : Ohmyfood
 
-My mission is to develop a “mobile first” site that lists the menus of gourmet restaurants. In addition to traditional reservation systems, customers will be able to compose their meal menu so that the dishes are ready when they arrive.
+My mission was to develop a “mobile first” site that lists the menus of gourmet restaurants. In addition to traditional reservation systems, customers will be able to compose their meal menu so that the dishes are ready when they arrive.
 
 ## Languages and Tools        
 <p align="left"> 
